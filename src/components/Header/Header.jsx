@@ -8,7 +8,6 @@ function Header() {
   const itemInCart=useSelector(state=>state?.cart,shallowEqual)
   let itemcount=itemInCart ? itemInCart.length : 0
 
-  console.log({itemInCart});
 
   useEffect(() => {
     const handleScroll = () => {
