@@ -1,0 +1,23 @@
+.sidebar{
+
+    .title{
+        font-weight: 700;
+    }
+    .filtertitle{
+        margin-bottom: 0.5rem;
+    }
+    .filteroption {
+        list-style: none;
+        padding-left: 0;
+        text-transform: capitalize;
+        padding-bottom: 1rem;
+        li{
+            font-size: 14px;
+            &:hover{
+                color: blueviolet;
+                cursor: pointer;
+            }
+        }
+        
+    }
+}

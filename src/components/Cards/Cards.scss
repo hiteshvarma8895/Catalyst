@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+.cardsection{
+    font-family: "Noto Serif", serif ;
+    padding-bottom: 2rem;
+    cursor: pointer;
+    .imgsection:hover .overlay {
+        opacity: 0.85;
+
+    }
+    .imgsection{
+        padding-bottom: 1rem;
+        position: relative;
+        width: fit-content;
+
+        img {
+
+            display: block;
+            width: 100%;
+            // height: auto;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 96%;
+            width: auto;
+            opacity: 0;
+            transition: .1s ease;
+            background-color: #241e1e;
+        }
+
+        .addtocart {
+            color: white;
+            font-size: 14px;
+            font-weight: 700;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+    }
+    .detailsection{
+        p{
+            margin-bottom: 0;
+        }
+        .title{
+            font-size: 18px;
+            font-weight: 500;
+           
+
+        }
+        .metadata{
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            span{
+                font-weight: 400;
+                color: #4F4733;
+
+            }
+        }
+        .price{
+            padding-top: 1rem;
+            font-size: 14px;
+            font-weight: 400;
+            color: #5A112B;
+            
+
+        }
+    }
+}
